@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-vazirmatn: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-burgundy: #701a23;
+  --color-burgundy-hover: #58141b;
+  --color-burgundy-light: #f5e8ea;
+  --color-cream: #fcfaf7;
+  --color-cream-dark: #f3eee7;
+  --color-charcoal: #1f1a1c;
+  --color-charcoal-muted: #574e52;
+}
+
+html {
+  font-family: var(--font-vazirmatn);
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for RTL e-commerce look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3eee7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a88d92;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #701a23;
+}

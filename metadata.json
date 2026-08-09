@@ -1,0 +1,6 @@
+{
+  "name": "نیلوفر گالری | Niloofar Boutique",
+  "description": "فروشگاه آنلاین پوشاک و اکسسوری زنانه - کالکشن‌های اختصاصی و مرچ برند نیلوفر",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
